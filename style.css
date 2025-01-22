@@ -14,6 +14,7 @@
 
 body {
   position: relative;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 section {
@@ -562,4 +563,32 @@ li{
 }
 .d1{
   border-right: 2px solid #fca424;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    left: 0;
+  }
+  .fa {
+    width: 20%;
+  }
+  .right-bar {
+    width: 100%;
+  }
+  .card-des {
+    width: 30%;
+  }
+  .c-left {
+    width: 100%;
+  }
+  .c-right {
+    width: 100%;
+    padding-right: 1rem;
+  }
+  .sec-main {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
