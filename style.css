@@ -109,12 +109,12 @@ padding-right: 0.9rem;
 .pin,
 .address {
   margin-top: 0.3rem;
-  font-size: 10px;
+  font-size: 12px;
   color: #cdcdcd;
   line-height: 1rem;
 }
 .email strong ,.phone strong ,.mobile strong ,.birth strong ,.pin strong ,.address strong ,.phone strong ,.birth strong {
-color: white;
+color: rgb(227, 218, 218);
 }
 
 .sub-contain {
@@ -262,7 +262,7 @@ color: white;
   display: flex;
   flex-direction: column;
   padding-top: 0.3rem;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.2rem;
   color: #cdcdcd;
 }
@@ -446,14 +446,14 @@ overflow: auto;
 }
 .seCard .des {
   line-height: 1.2rem;
-  font-size: 12px;
+  font-size: 13px;
   color: #cdcdcd;
 }
 .in-des {
   margin: 0rem 0 0.4rem;
   font-weight: bold;
   color: black;
-  font-size: 14px;
+  font-size: 15px;
 }
 .seCard button {
   position: absolute;
@@ -479,34 +479,17 @@ overflow: auto;
   margin-top: 1rem;
   overflow: auto;
   background-color: white;
-  padding-left: 0.8rem;
   padding-right: 0.5rem;
   border-radius: 5px;
   margin-right: 2.2rem;
   position: relative;
 }
-.c-right::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
 
-.c-right::-webkit-scrollbar {
-  width: 6px;
-}
-
-.c-right::-webkit-scrollbar-thumb {
-  height: 2px;
-  background: #fca424;
-  border-radius: 10px;
-}
-
-.c-right::-webkit-scrollbar-thumb:hover {
-  cursor: pointer;
-  background: #d98c17;
-}
 
 .activity {
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;;
+  margin-left: 0.8rem;
   padding: 1rem 0rem 0.4rem 0rem;
   width: 90%;
   color: #cdcdcd;
@@ -514,7 +497,8 @@ overflow: auto;
 }
 ul {
   margin-top: 0rem;
-  padding-left: 0rem;
+  padding-left: 1rem;
+  overflow: auto;
 }
 ul li:nth-child(1)::marker {
   color: #0dd39d;
@@ -542,7 +526,7 @@ ul li:nth-child(4)::marker {
 }
 
 li {
-  font-size: 12px;
+  font-size: 13px;
   color: #cdcdcd;
   line-height: 0.9rem;
 }
@@ -571,7 +555,6 @@ li {
 .past:hover,
 .members:hover {
   padding-top: 0.9rem;
-  margin-left: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -604,4 +587,27 @@ li {
 .camera:hover{
   background-color: rgba(255, 255, 255, 0.5);
   
+}
+.list-group{
+  width: 100%;
+  height: 33vh;
+  overflow: auto;
+}
+.list-group::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.list-group::-webkit-scrollbar {
+  width: 6px;
+}
+
+.list-group::-webkit-scrollbar-thumb {
+  height: 2px;
+  background: #fca424;
+  border-radius: 10px;
+}
+
+.list-group::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background: #d98c17;
 }
